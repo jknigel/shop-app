@@ -1,11 +1,13 @@
-# Auto detect text files and perform LF normalization
 # Dart files
 *.dart linguist-language=Dart
 
-# Flutter specific files and directories
+# YAML files (e.g., pubspec.yaml)
 pubspec.yaml linguist-language=YAML
+
+# Flutter generated or irrelevant files
 *.flutter-plugins linguist-vendored
 *.flutter-plugins-dependencies linguist-vendored
 *.lock linguist-generated
 android/** linguist-vendored
 ios/** linguist-vendored
+build/** linguist-generated
