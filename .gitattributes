@@ -11,3 +11,8 @@ pubspec.yaml linguist-language=YAML
 android/** linguist-vendored
 ios/** linguist-vendored
 build/** linguist-generated
+
+# Exclude platform-specific folders
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
